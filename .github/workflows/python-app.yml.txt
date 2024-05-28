@@ -21,7 +21,7 @@ jobs:
         pip install -r requirements.txt
     - name: Test with Pytest
       run: |
-        text_example
+        pytest
     - name: Lint with Pylint
       run: |
         pylint ./utils.py
