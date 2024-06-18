@@ -24,7 +24,7 @@ jobs:
         pytest
     - name: Lint with Pylint
       run: |
-        pylint ./utils.py
+        pylint D:\a_STUDIA\6 semestr\praktyka programowania\pp\praktyka_programowania_ci_cd\utils.py
     - name: Format with Black
       run: |
         black --check .
